@@ -17,6 +17,6 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    server = http.server.HTTPServer(("0.0.0.0", 8000), Handler)
-    print("e2e target listening on :8000")
+    server = http.server.HTTPServer(("0.0.0.0", 9798), Handler)
+    print("e2e target listening on :9798")
     server.serve_forever()
